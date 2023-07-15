@@ -1,3 +1,7 @@
+**Name Of the Project:**
+  *RandPro*
+
+
 **USED COLORS:**
 ```
 Dark classic blue `#0A1828`
