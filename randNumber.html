@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icons8-dice-50.png"/>
+    <title>Random Number Generator</title>
+</head>
+<body>
+    <div class="navbar">
+        <a id="logo" href="./index.html">Rand Pro</span></a>
+        <a class="active" href="./randNumber.html"><img src="./navbar/randnum-navbar.png"></a>
+        <a href="./spinTheWheel.html"><img src="./navbar/luckywheel-navbar.png"></a>
+        <a href="./rollDice.html"><img src="./navbar/dice-navbar.png"></a>
+        <a href="./index.html"><img src="./navbar/home-navbar.png"></a>
+    </div>
+
+    <div class="text-center">
+        <a>Generate Random Number</a>
+    </div>
+
+    <div class ="randNumber">
+        <label>Min:</label><br>
+        <input type="text" id="inpMin"><br><br>
+        <label>Max:</label><br>
+        <input type="text" id="inpMax"><br><br>
+        <button type="button" id="btnRand">Randomize</button>
+    </div>
+    <div class = "xLabel">
+        <label id="xLabel"></label><br><br>
+        <label id="informational">Please be informed that your inputed minimum and maximum number won't <br> be 
+            included when program randomizes number</label>
+    </div>
+    
+    <!--For Scripts--> 
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icons8-dice-50.png"/>
+    <title>Roll Dice</title>
+</head>
+<body>
+    <div class="navbar">
+        <a id="logo" href="./index.html">Rand Pro</span></a>
+        <a href="./randNumber.html"><img src="./navbar/randnum-navbar.png"></a>
+        <a href="./spinTheWheel.html"><img src="./navbar/luckywheel-navbar.png"></a>
+        <a class="active" href="./rollDice.html"><img src="./navbar/dice-navbar.png"></a>
+        <a href="./index.html"><img src="./navbar/home-navbar.png"></a>
+    </div>
+
+    <div class="xLabel">
+        <a>Please, Select amount of dices you want to roll</a>
+    </div>
+    
+    <div class="selector">
+        <select id="quentity">
+            <option value="0">N/A</option>
+            <option value="1">1 DICE</option>
+            <option value="2">2 DICE</option>
+        </select>
+    </div>
+
+    
+    <div class="xLabel">
+        <label id="label1"></label><br><br>
+        <img id="dice" src=""><br><br>
+        <img id="dice2" src=""><br>
+    </div>
+    <div class="rollDice">
+    <button type="button" id="btnRoll">Roll</button>
+    </div>
+    
+    <!--For Scripts-->
+    <script src="./js/script1.js"></script>
+</body>
+    
+</html>

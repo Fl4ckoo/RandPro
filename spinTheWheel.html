@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icons8-dice-50.png"/>
+    <title>Spin The Wheel</title>
+</head>
+<body>
+
+    
+
+    <div class="navbar">
+        <a id="logo" href="./index.html">Rand Pro</span></a>
+        <a href="./randNumber.html"><img src="./navbar/randnum-navbar.png"></a>
+        <a class="active" href="./spinTheWheel.html"><img src="./navbar/luckywheel-navbar.png"></a>
+        <a href="./rollDice.html"><img src="./navbar/dice-navbar.png"></a>
+        <a href="./index.html"><img src="./navbar/home-navbar.png"></a>
+    </div>
+
+    <div class="title">
+        <a>Spin The Wheel</a>
+    </div>
+
+
+    <div class="spinTheWheel">
+        <div class="spinBtn">Spin</div>
+        <div class="wheel">
+            <div class="number" style="--i:1;--clr:#107471;"><span><label id="l1"> </label></span></div>
+            <div class="number" style="--i:2;--clr:#28aba6;"><span><label id="l2"> </label></span></div>
+            <div class="number" style="--i:3;--clr:#107471;"><span><label id="l3"> </label></span></div>
+            <div class="number" style="--i:4;--clr:#28aba6;"><span><label id="l4"> </label></span></div>
+            <div class="number" style="--i:5;--clr:#107471;"><span><label id="l5"> </label></span></div>
+            <div class="number" style="--i:6;--clr:#40d4d9;"><span><label id="l6"> </label></span></div>
+            <div class="number" style="--i:7;--clr:#107471;"><span><label id="l7"> </label></span></div>
+            <div class="number" style="--i:8;--clr:#40d4d9;"><span><label id="l8"> </label></span></div>
+        </div>
+    </div>
+
+    <audio src="./assets/spinning.mp3" id="audio"></audio>
+
+
+    <div class="main_spinthewheel">
+        <p id="quentity"></p><br><br>
+        <label id="labelName"></label><br>
+        <input type="text" id="inpName"><br><br>
+        <button type="button" id="btnAdd">Add</button>
+    </div>
+
+    <!--For Scripts-->
+    <script src="./js/script2.js"></script>
+</body>
+</html>
