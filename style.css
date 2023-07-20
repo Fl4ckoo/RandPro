@@ -30,6 +30,11 @@
     box-sizing: border-box;
 }
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: #0A1828;
     font-family: 'Roboto', sans-serif;
@@ -93,19 +98,15 @@ audio{
 /*Divs*/
 
 .titleX {
-    animation: slideInLeft 1s ease-in both;
+    animation: slideInLeft 1.5s ease-in-out;
     color:#BFA181;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     font-size: 60px;
 }
 
 .titleY{
-  animation: slideFromTop 1s ease-in both;
+  animation: slideFromTop 1.5s ease-in-out;
   color:#BFA181;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   font-size: 60px;
 }
@@ -131,6 +132,7 @@ audio{
     font-weight: 300;
     font-size: 21px;
     font-style: italic;
+    z-index: -2;
 }
 
 .rollDice{
@@ -139,6 +141,7 @@ audio{
     justify-content: center;
     font-weight: 300;
     color:#BFA181;
+    z-index: -2;
 }
 
 .selector{
@@ -166,10 +169,31 @@ audio{
 
 
 .services{
-  display: flex;
+  position:static;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  color: #BFA181;
+  font-weight:300;
+  font-size: 30px;
+  
+}
+
+.box{
+  display:grid;
+  position: relative;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
+  color: #BFA181;
+  transition: 1.5s ease-in-out;
+  
+}
+
+.box:hover{
+  transform: scale(0.9);
 }
 
 
@@ -205,10 +229,11 @@ audio{
 .navbar {
     background-color: #0A1828;
     width: 100%;
-    overflow: auto;
+    overflow:auto;
     margin-bottom: 3%;
     position: sticky;
     top:0;
+    z-index: 1;
   }
 
 
