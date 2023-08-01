@@ -8,13 +8,22 @@
     <title>Roll Dice</title>
 </head>
 <body>
-    <div class="navbar">
-        <a id="logo" href="./index.html">Rand Pro</span></a>
-        <a href="./randNumber.html"><img src="./navbar/randnum-navbar.png"></a>
-        <a href="./spinTheWheel.html"><img src="./navbar/luckywheel-navbar.png"></a>
-        <a class="active" href="./rollDice.html"><img src="./navbar/dice-navbar.png"></a>
-        <a href="./index.html"><img src="./navbar/home-navbar.png"></a>
-    </div>
+    <nav class="navbar">
+        <div><a id="logo" href="./index.html">Rand Pro<a></div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="nav-items">
+        <ul>
+            <li><a class="active" href="./index.html"><img src="./navbar/home-navbar.png"></a></li>
+            <li><a href="./randNumber.html"><img src="./navbar/randnum-navbar.png"></a></li>
+            <li><a href="./spinTheWheel.html"><img src="./navbar/luckywheel-navbar.png"></a></li>
+            <li><a href="./rollDice.html"><img src="./navbar/dice-navbar.png"></a></li>
+        </ul>
+        </div>
+    </nav>
 
     
     <div class="titleY">
@@ -45,6 +54,7 @@
     
     <!--For Scripts-->
     <script src="./js/script1.js"></script>
+    <script src="./js/burger-script.js"></script>
 </body>
     
 </html>
