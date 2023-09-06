@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/icons8-dice-50.png"/>
-    <title>Roll Dice</title>
+    <title>Random Name Generator</title>
 </head>
 <body>
+
     <nav class="navbar">
         <div><a id="logo" href="./index.html">Rand Pro<a></div>
         <a href="#" class="toggle-button">
@@ -26,36 +27,34 @@
         </div>
     </nav>
 
-    
-    <div class="titleY">
-        <a>Roll The Dice</a>
+    <div class="titleX">
+        <p>Random Name Generator</p>
     </div>
-    
-    <div class="xLabel">
-        <a>Please, Select amount of dices you want to roll</a>
-    </div>
-    
+
+
     <div class="selector">
         <select id="quentity">
             <option value="0">N/A</option>
-            <option value="1">1 DICE</option>
-            <option value="2">2 DICE</option>
+            <option value="1">MALE</option>
+            <option value="2">FEMALE</option>
         </select>
     </div>
 
-    
     <div class="xLabel">
         <label id="label1"></label><br><br>
-        <img id="dice" src=""><br><br>
-        <img id="dice2" src=""><br>
     </div>
-    <div class="rollDice">
-    <button type="button" id="btnRoll">Roll</button>
+
+    <div class="randomizeName">
+        <button id="btnRandom">Generate Random Name</button><br><br>
+        <button id="btnCopy" style="visibility: hidden;">Copy!</button>
     </div>
-    
+
+
+
+
     <!--For Scripts-->
-    <script src="./js/script1.js"></script>
     <script src="./js/burger-script.js"></script>
-</body>
+    <script type="module" src="./js/script3.js"></script>
     
+</body>
 </html>

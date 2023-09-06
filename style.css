@@ -144,6 +144,15 @@ audio{
     z-index: -2;
 }
 
+.randomizeName{
+    text-align: center;
+    align-items: normal;
+    justify-content: center;
+    font-weight: 300;
+    color:#BFA181;
+    z-index: -2;
+}
+
 .selector{
   text-align: center;
   align-items: normal;
